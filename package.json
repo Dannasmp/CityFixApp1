@@ -1,0 +1,14 @@
+{
+  "name": "cityfix",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^30.0.0"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  }
+}

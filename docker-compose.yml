@@ -1,0 +1,11 @@
+services:
+  cityfix:
+    build: .
+    container_name: cityfix
+    dns:
+      - 8.8.8.8
+    volumes:
+      - .:/app
+      - /app/node_modules
+    working_dir: /app
+    command: npm test
